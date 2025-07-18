@@ -10,8 +10,11 @@
 - 程序中断会自动恢复原昵称
 - 支持 emoji 昵称
 - 支持 Ubuntu、CentOS、Debian 等主流系统
-- 支持后台常驻运行（nohup / screen / tmux）
-- 支持开机自启（配合 systemd 可选）
+- 支持后台常驻运行（支持 `nohup` / `screen` / `tmux`）
+- 支持开机自启（可选配置 `systemd` 服务）
+- ✅ 已修复 Telethon 中的过时 API 调用，兼容新版本
+- ✅ 优化昵称时间戳提取与替换逻辑，更加稳定可靠
+
 
 ---
 
